@@ -93,5 +93,5 @@ presentation <- ph_with_chart(presentation, chart = my_barchart_01, type = "body
 presentation <- move_slide(presentation, index = 8, to = 1)
 print(presentation, target = "demo/result_04.pptx")
 
-
+# unlink("demo/result*.pptx")
 
