@@ -1,7 +1,7 @@
 ---
 title: "Officer - MS Word et PowerPoint depuis R"
 author: "<span class='bigtext'>david.gohel @ ardata.fr</span>"
-date: "`r Sys.Date()`"
+date: "6 juillet 2018"
 output:
   xaringan::moon_reader:
     css: ['default', 'libs/addstyles.css']
@@ -174,4 +174,4 @@ class: inverse, middle
 
 # Illustrations
 
-
+> voir les fichiers du projet RStudio `r list.files("demo", pattern = "\\.R", full.names = TRUE)`
